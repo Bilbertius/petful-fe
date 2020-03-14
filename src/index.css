@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    color:white;
+    font-family: 'Karla', sans-serif;
+    max-width: 100vw;
+
+}
+html {
+    margin: 0 auto;
+}
+ a{
+    color: #2f2f2f;
+    text-decoration: none;
+    background: rgba(0, 170, 116, 0.88);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(26, 106, 82, 0.27);
+    padding: 4px;
+}
+
+header,h1,h2{
+    font-family: 'Rubik', sans-serif;
+    color:#C791AF;
+    margin: 0 auto;
+}
+
+.App{
+    background:#408C94;
+    /* color:#408C94; */
+}
+
+.Pets {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.Pets > div.pet > img {
+    max-width: 20vw;
+    height: auto;
+}
+section > h2 {
+    height: 5vh;
+    width: 100vw;
+}
+
+input {
+    padding: 1vh 1vh;
+}
+
+.pet {
+    display: flex;
+    flex-flow: column wrap;
+    background: aquamarine;
+    width:30vw;
+    height: 40vw;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 5vh 5vw;
+    border-radius: 15px;
+}
+.pet > button#adopt-button {
+    color : #8a00ff;
+    text-shadow: 1px 1px 20px #00ffae;
+    font-size: 1.3em;
+    padding: 2vh 2vw;
+    margin: 3vh 3vw;
+     background: linear-gradient(180deg, hsla(0, 0%, 36%, 0.62) 1%,hsl(160,20%,40%)15%,hsl(160,40%,60%)50%,hsl(160,60%,80%) );
+    border: none;
+    box-shadow: 0 3px 6px  rgba(51, 93, 93, 0.35);
+    border-radius: 10px;
+
+}
+span {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.Pets {
+    display: flex;
+}
